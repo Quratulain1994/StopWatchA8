@@ -1,0 +1,77 @@
+body{
+    font-family: cambria;
+background-image: url('images/rklingbackgroundinhtmlsparklin-vi.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+h1{
+    font-family: cambria;
+    color: white;
+    text-align: center;
+    background-color: rgba(8, 173, 202, 0.479);
+    width: 100%;
+    
+}
+.wrap{
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    padding: 50px 30px;
+    background-color: rgba(0, 0, 0, 0.616);
+    box-shadow: 0px 5px 25px #0000004a;
+}
+#timer{
+
+    font-size: 50px;
+    font-family: cambria;
+    margin: 0 auto;
+    color: rgb(202, 199, 8);
+
+}
+p{
+    font-weight: 400;
+    color: white;
+    padding: 5px 0px;
+    font-size: 22px;
+    text-align: center;
+    font-family: cambria; 
+    
+
+}
+.option {
+  line-height: 50px;
+  
+}
+#play , #reset,#stop{
+
+border-radius: 0px;
+color: #fff;
+background: linear-gradient(45deg, #1d1c1da4, rgb(2, 133, 240));
+padding: 15px 25px;
+margin: 20px;
+}
+
+.define span{
+    padding: 15px 20px;
+    margin-left: 15px;
+    font-weight: 400;
+    color: rgb(202, 199, 8);
+    font-size: 22px;
+    text-align: center;  
+    font-family: cambria; 
+}
+.pause .fa-play,
+.fa-pause{
+    display:none;
+    visibility: hidden;
+}
+.pause .fa-pause{
+
+    visibility: visible;
+} 
